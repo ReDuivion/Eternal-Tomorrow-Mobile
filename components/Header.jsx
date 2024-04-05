@@ -9,10 +9,10 @@ function Header({ children }) {
     <>
       <View style={{ flexDirection: "row", gap: 6, marginRight: 10 }}>
         <Button title="Login" mode="contained" buttonColor="indigo">
-          <Link href="login">Login</Link>
+          <Link href="/auth/login">Login</Link>
         </Button>
         <Button title="SignUp">
-          <Link href="/signup">Register</Link>
+          <Link href="/auth/signup">Register</Link>
         </Button>
       </View>
     </>

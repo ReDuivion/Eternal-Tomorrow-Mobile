@@ -16,6 +16,9 @@ export default function HomePage() {
       >
         <View style={{ justifyContent: "flex-start" }}>
           <Text style={{ fontWeight: "400", fontSize: 24 }}>MyNimeList</Text>
+          <Link href="/auth/retrieve">Verify</Link>
+          <Link href="/auth/signup">Verify</Link>
+          <Link href="/auth/login">Verify</Link>
         </View>
         <View>
           <Button

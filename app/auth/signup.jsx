@@ -2,8 +2,8 @@ import { Text, View, StyleSheet } from "react-native";
 import React, { Component } from "react";
 import { Card, Button, TextInput as Input, Divider } from "react-native-paper";
 import { Link } from "expo-router";
-import { supabase } from "../libs/supabase";
-import Toast from "react-native-toast-message"
+import { supabase } from "../../libs/supabase";
+import Toast from "react-native-toast-message";
 export default function signup() {
   const [object, setObject] = React.useState({
     email: "",

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { TextInput as Input, Button, Card, Divider } from "react-native-paper";
-import { supabase } from "../libs/supabase";
+import { supabase } from "../../libs/supabase";
 import { router, Link } from "expo-router";
 import Toast from "react-native-toast-message";
 
@@ -35,7 +35,7 @@ export default function Login() {
           text1: "Login Success",
           text2: data.user,
         });
-        router.replace("/")
+        router.replace("/");
       }
     } catch (error) {
       console.error(error.message);
